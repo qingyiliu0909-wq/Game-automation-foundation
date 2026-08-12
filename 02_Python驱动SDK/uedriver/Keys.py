@@ -1,0 +1,41 @@
+class Keys(object):
+    """ABCD...XYZ 字母全部使用大写"""
+    #鼠标控制
+    MouseX="MouseX"
+    MouseY="MouseY"
+    MouseLeft="LeftMouseButton"
+    MouseRight="RightMouseButton"
+    MouseMiddle="MiddleMouseButton"
+    MouseThumb="ThumbMouseButton"
+    MouseThumb2="ThumbMouseButton2"
+
+    BackSpace="BackSpace"
+    Tab="Tab"
+    Enter="Enter"
+    Pause="Pause"
+    CapsLock="CapsLock"
+    Esc="Escape"
+    #空格
+    SpaceBar="SpaceBar"
+    Comma="Comma"
+
+    ShiftLeft="LeftShift"
+    ShiftRight="RightShift"
+    ControlLeft="LeftControl"
+    ControlRight="RightControl"
+    AltLeft="LeftAlt"
+    AltRight="RightAlt"
+    CommandLeft="LeftCommand"
+    CommandRight="RightCommand"
+
+    #数字
+    Zero="Zero"
+    One="One"
+    Two="Two"
+    Three="Three"
+    Four="Four"
+    Five="Five"
+    Six="Six"
+    Seven="Seven"
+    Eight="Eight"
+    Nine="Nine"

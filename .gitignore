@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Build and runtime artifacts
+Binaries/
+Intermediate/
+Saved/
+DerivedDataCache/
+log/
+logs/
+report/
+*.log
+*.trace
+*.utrace
+
+# Local configuration and credentials
+.env
+.env.*
+config.local.py
+secrets.*
+
