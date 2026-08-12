@@ -1,0 +1,33 @@
+name: ui-smoke-template
+version: 1
+max_duration_sec: 120
+
+# 选择与当前平台匹配的锚点：
+# Windows 示例：
+# success:
+#   kind: image
+#   asset: win/main-menu.png
+#   threshold: 0.90
+# Android 示例：
+# success:
+#   kind: android_uia
+#   resource_id: com.example.game:id/main_menu
+
+steps:
+  - name: capture-launch-state
+    action: screenshot
+    meta:
+      tag: launch_state
+
+  - name: wait-for-main-menu
+    action: wait_anchor
+    seconds: 20
+    # Replace this with one of the platform-specific anchors above.
+    anchor:
+      kind: android_uia
+      resource_id: com.example.game:id/main_menu
+
+  - name: capture-main-menu
+    action: screenshot
+    meta:
+      tag: main_menu

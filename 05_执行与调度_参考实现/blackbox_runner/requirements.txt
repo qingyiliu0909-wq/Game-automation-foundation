@@ -1,0 +1,16 @@
+pydantic>=2.6
+pyyaml>=6.0
+requests>=2.31
+
+# Optional deps (installed by default for convenience)
+opencv-python>=4.8
+
+# Windows automation
+pywinauto>=0.6.8; platform_system=="Windows"
+pyautogui>=0.9.54; platform_system=="Windows"
+pydirectinput>=1.0.4; platform_system=="Windows"
+pywin32>=306; platform_system=="Windows"
+
+# Android automation
+uiautomator2>=2.16.23
+
